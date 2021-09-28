@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="273.4dp"
+
+        android:text="Hello World!"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="#ffa500"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="136.7dp"
+        android:layout_weight="1"
+
+        android:backgroundTint="#0f0"
+        android:gravity="center"
+        android:text="@string/click_me"
+        android:textColor="#616161" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="273.4dp"
+
+        android:contentDescription="@string/todo"
+        tools:srcCompat="@tools:sample/avatars"
+        android:gravity="center"
+        android:background="#4b0082"/>
+
+</LinearLayout>
