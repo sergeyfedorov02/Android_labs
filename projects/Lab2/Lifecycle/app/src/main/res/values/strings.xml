@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lifecycle</string>
+    <string name="default_greeting">Hello!</string>
+    <string name="click_to_greet">click to greet</string>
+    <string name="bnGreet" />
+    <string name="clicktext" />
+    <string name="toast_button">toast button</string>
+    <string name="snackbar_butt">snackbar button</string>
+    <string name="toast_clicked" />
+    <string name="snackbar_clicked" />
+    <string name="hello_sergey">Hello, Sergey!</string>
+</resources>
