@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:layout_marginStart="150dp"
+        android:layout_gravity="end"
 
         android:text="Hello World!"
         android:gravity="center"
@@ -22,6 +23,7 @@
         android:id="@+id/button5"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:layout_weight="1"
 
         android:backgroundTint="#0f0"
@@ -34,6 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:layout_gravity="end"
 
         android:contentDescription="@string/todo"
         tools:srcCompat="@tools:sample/avatars"

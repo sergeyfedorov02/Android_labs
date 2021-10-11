@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/AndroidStudioProjects/Android_labs/projects/Lab1/app/src/main/res/layout/layout_3_22.xml" value="0.35885416666666664" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/activity_main.xml" value="0.33106884057971014" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_22.xml" value="0.25" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_22_alt.xml" value="0.25" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_9.xml" value="0.25" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_2_22.xml" value="0.25" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_2_9.xml" value="0.25" />
-        <entry key="..\:/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_3_22.xml" value="0.25" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/drawable/number_three.xml" value="0.375" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_22.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_22_alt.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_9.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_1_9_alt.xml" value="0.25" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_2_22.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_2_9.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_3_22.xml" value="0.22" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/layout_3_222.xml" value="0.25" />
+        <entry key="..\:/Users/fsergey/Android/AndroidStudioProjects/Lab1/app/src/main/res/layout/test.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -19,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

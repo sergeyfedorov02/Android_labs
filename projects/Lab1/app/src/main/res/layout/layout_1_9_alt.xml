@@ -3,25 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
+    <Space
+        android:layout_width="150dp"
+        android:layout_height="match_parent"/>
+
     <TextView
-        android:layout_width="136dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:layout_gravity="end"
 
         android:text="Hello World!"
         android:gravity="center"
-        android:textSize="25sp"
+        android:textSize="17sp"
         android:background="#ffa500"
         android:textColor="#000"/>
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="136dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_weight="1"
 
@@ -32,15 +36,14 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="136dp"
-        android:layout_height="0dp"
-        android:layout_gravity="end"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
+        android:layout_gravity="end"
 
         android:contentDescription="@string/todo"
-        android:gravity="center"
         tools:srcCompat="@tools:sample/avatars"
+        android:gravity="center"
         android:background="#4b0082"/>
-
 
 </LinearLayout>

@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Lab1</string>
-    <string name="click_me">Click_me</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="app_name">lab1</string>
+    <string name="click_me">click me</string>
+    <string name="todo" />
     <string name="_1">1</string>
     <string name="_2">2</string>
     <string name="_5">5</string>
