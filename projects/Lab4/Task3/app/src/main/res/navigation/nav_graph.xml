@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment1">
+
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.task3.FirstFragment"
+        android:label="first_fragment"
+        tools:layout="@layout/first_fragment" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/fragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.task3.SecondFragment"
+        android:label="second_fragment"
+        tools:layout="@layout/second_fragment" >
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_firstFragment"
+            app:destination="@id/fragment1"
+            app:popUpTo="@id/fragment1"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.task3.ThirdFragment"
+        android:label="third_fragment"
+        tools:layout="@layout/third_fragment" >
+        <action
+            android:id="@+id/action_thirdFragment_to_secondFragment"
+            app:destination="@id/fragment2"
+            app:popUpTo="@id/fragment2"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_thirdFragment_to_firstFragment"
+            app:destination="@id/fragment1"
+            app:popUpTo="@id/fragment1"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <activity
+        android:id="@+id/aboutActivity"
+        android:name="com.example.task3.ActivityAbout"
+        android:label="About"
+        tools:layout="@layout/about" />
+
+    <action
+        android:id="@+id/global_about"
+        app:destination="@id/aboutActivity" />
+
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">task2</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="title_to_second">to second</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="title_to_first">to first</string>
+    <string name="title_to_third">to third</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="activity_about">Activity About</string>
+    <string name="my_text_about">Очень инетресное задание. Надеюсь, что у меня получилось сделать его правильно!</string>
+    <string name="about">About</string>
+    <string name="press_about_to_view_the_contents">Press About to view the contents</string>
+</resources>
