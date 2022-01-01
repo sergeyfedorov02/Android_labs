@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val my_image = "https://www.meme-arsenal.com/memes/dea858c26303c031d221b415d75de83b.jpg"
+        private const val my_image =
+            "https://www.meme-arsenal.com/memes/dea858c26303c031d221b415d75de83b.jpg"
     }
 
 }

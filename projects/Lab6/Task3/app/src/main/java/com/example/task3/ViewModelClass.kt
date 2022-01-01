@@ -21,7 +21,9 @@ class ViewModelClass : ViewModel() {
             delay(2000)
             val stream = URL(url).openConnection().getInputStream()
             val bitmap = BitmapFactory.decodeStream(stream)
-            mutableLiveData.postValue(bitmap)
+            withContext(Dispatchers.Main) {
+                mutableLiveData.value = bitmap
+            }
         }
     }
 }

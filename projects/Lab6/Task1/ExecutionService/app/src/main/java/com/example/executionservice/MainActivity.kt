@@ -4,8 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
+import java.util.concurrent.Future
 
 class MainActivity : AppCompatActivity() {
     private var secondsElapsed: Int = 0
@@ -17,12 +16,12 @@ class MainActivity : AppCompatActivity() {
         textSecondsElapsed = findViewById(R.id.textSecondsElapsed)
     }
 
-    private lateinit var executorService: ExecutorService
+    private lateinit var future: Future<*>
 
     override fun onStart() {
-        executorService = Executors.newSingleThreadExecutor()
-        executorService.execute {
-            while (!executorService.isShutdown) {
+        val executor = (applicationContext as MainApplication).executorService
+        future = executor.submit {
+            while (!executor.isShutdown) {
                 Log.d(TAG, "${Thread.currentThread()} is iterating")
                 Thread.sleep(1000)
                 textSecondsElapsed.post {
@@ -35,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onStop() {
-        executorService.shutdown()
+        future.cancel(true)
         super.onStop()
 
     }
